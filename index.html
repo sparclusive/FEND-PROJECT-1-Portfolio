@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="resp.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <title>Udhayan Venugopal - FEND Portfolio</title>
+</head>
+
+<body>
+  <header class="top_header border-design">
+    <div class="container">
+      <div class="row">
+        <div class="logo"> <img src="logo.JPG"></div>
+		<!--	<input type="checkbox" id="button">
+		 <nav role="custom-dropdown"> -->
+			<!-- <label for="button" onclick></label> -->
+
+			<!-- <ul> -->
+				<!-- <li><a href="#">Stream</a></li> -->
+				<!-- <li><a href="#">Lab</a></li> -->
+				<!-- <li><a href="#">Projects</a></li> -->
+				<!-- <li><a href="#">About</a></li> -->
+				<!-- <li><a href="#">Contact</a></li> -->
+			<!-- </ul> -->
+		<!-- </nav> -->
+		<a href="javascript:void(0);" style="font-size:15px;" class="menuicon" onclick="myFunction()">&#9776;</a>
+        <div class="topnav" id="myTopnav">
+		<!-- <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>  -->
+          <a href="#home">Home</a>
+          <a href="#news">LinkedIn</a>
+          <a href="#contact">Facebook</a>
+          <a href="#about">Contact</a>
+        </div>
+      </div>
+  </header>
+
+  <div class="portfolio border-design">
+    <div class="name"><strong>Udhayan Venugopal</strong>
+    </div>
+    <div class="name"><em>Front-End Frontier</em>
+    </div>
+     <div class="name"><i>"Great fan of minimalistic design and would like cook HTML code all day long"</i>
+    </div>
+
+    <hr style="text-align: right;" />
+    <img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.sample-solutions.com/s/misc/logo.jpg" width="305" height="305" />
+  </div>
+  <div class="portfolio">
+
+    <h3 style="text-align: center;">Featured Work</h3>
+    <div class="portfolio_row">
+      <div class="portfolio_col border-design"><div class="overlay_container"><img src="memory-game.jpg" width="158" height="158" /> <div class="overlay">
+    <div class="text"><a href="https://github.com/sparclusive">Memory Game</a></div>
+  </div></div></div>
+      <div class="portfolio_col border-design"><div class="overlay_container"><img src="restaurant-review.jpg" width="155" height="155" />
+       <div class="overlay">
+    <div class="text"><a href="https://github.com/sparclusive">Restaurant Review App</a></div>
+  </div></div></div>
+      <div class="portfolio_col border-design">
+        <div class="overlay_container"><img src="neighborhood-map.jpg" width="156" height="156" />
+       <div class="overlay">
+    <div class="text"><a href="https://github.com/sparclusive">Neighborhood Map</a></div>
+  </div>  </div></div>
+
+    </div>
+  </div>
+
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
